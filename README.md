@@ -2,6 +2,8 @@
 
 A Persian poetry generation model built using a transformer architecture implemented from scratch in PyTorch. This model generates poetry in the style of Hafez, a renowned 14th-century Persian poet.
 
+![Persian Poetry Generator Demo](./assets/image.png)
+
 ## Features
 
 - **Custom Transformer Architecture**: Built from scratch without using pre-built transformer modules
