@@ -1,0 +1,4 @@
+*.pt
+wandb/
+persian_poetry_bpe.json
+structured_corpus.txt
