@@ -2,3 +2,4 @@
 wandb/
 persian_poetry_bpe.json
 structured_corpus.txt
+__pycache__/
