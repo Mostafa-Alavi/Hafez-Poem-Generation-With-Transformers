@@ -137,8 +137,7 @@ The training data consists of poems from Hafez, a celebrated Persian poet known 
 
 ## Acknowledgments
 
-- This project implements a transformer architecture from scratch for educational purposes
-- The poetry corpus is based on the works of Hafez
+- The poetry corpus is based on the works of [Persian Poem Corpus](https://github.com/amnghd/Persian_poems_corpus)
 - The implementation is inspired by Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT)
 
 ## License
