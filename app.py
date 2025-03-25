@@ -84,7 +84,7 @@ except Exception as e:
 if model_loaded:
     # Input for prompt
     prompt = st.text_area("Starting prompt:", 
-                          value="<bos> <versel1>  از چشم بخت خویش مبادت گزند", 
+                          value="از چشم بخت خویش مبادت گزند", 
                           help="Enter the starting text for poetry generation")
     
     # Generation parameters
