@@ -9,8 +9,23 @@ A Persian poetry generation model built using a transformer architecture impleme
 - **Custom Transformer Architecture**: Built from scratch without using pre-built transformer modules
 - **Persian Poetry Generation**: Generates text in the style of Hafez's poetry
 - **BPE Tokenization**: Uses byte-pair encoding for efficient tokenization of Persian text
+- **Special Poetry Tokens**: Structured output with special tokens for verses and line breaks
 - **Interactive Web UI**: Streamlit interface for easy interaction with the model
 - **Temperature Control**: Adjust randomness of generation for more diverse or deterministic outputs
+
+## Special Tokens
+
+The model uses special tokens to structure the generated poetry:
+
+- `<versel1>`: Marks the beginning of the first verse (مصرع اول)
+- `<versel2>`: Marks the beginning of the second verse (مصرع دوم)
+- `<linebreak>`: Indicates a line break between verses
+- `<bos>`: Beginning of sequence token
+
+Example prompt format:
+```
+<bos> <versel1> از چشم بخت خویش مبادت گزند
+```
 
 ## Demo
 
