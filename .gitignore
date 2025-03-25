@@ -1,5 +1,3 @@
-*.pt
 wandb/
-persian_poetry_bpe.json
-structured_corpus.txt
+*.pyc
 __pycache__/
